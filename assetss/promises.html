@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises , async,await</title>
+</head>
+<body>
+    <script>
+      //async await
+//       const devide = async function (x, y) { //ekem jep async funksionin
+//           const result = new Promise((resolve , reject ) => { //ekem jep resultatit te cilin me kthy ne form te premtimev
+//               if (y === 0){
+//               reject ("nuk pjestphet me zero"); //nese pjestohet me zero me shfaq ket mesazh ,ky mesazh shfaqet meniher
+//               return ;
+//               }
+
+
+//               setTimeout(() => {
+//                   resolve(x/y); // ja kem jap ni funksion qe e kthen rezultatin me ni koh te caktuar pershembull ketu 4 sekonda pastaj shfaqet rezultati i pjestimit
+//               } ,  4000 );
+//           });
+//           document.write (await result); //ktu para shfaqjes se rezultatit dmth pritet dy sekonda
+//         };      
+//         devide(10, 10).catch((e) => console.log(e)); // per me nxan errorin
+//         document.write("Pershendetje dhe miredita!") 
+        
+//         setTimeout(()  => {
+//             console.log ("Hi thereeeee!") // 
+//  } , 2000 );
+      
+ 
+
+
+
+
+
+        //promises ose ndryshe jane si lloj premtimi nese don te egzekutohet vazhdon me "resolve " nese jo "rejected"
+
+        // let p = new Promise((resolve , reject) => {
+        //     let x = 20;
+        //     if (x >= 20 ) resolve  ("brawoooo!");
+        //     else  reject ("kurgj ske ba");
+        // });
+
+        // p.then((resolve_output) => {  // me kto e trajtojm pjesen e pare resolove 
+        //     console.log (resolve_output);
+        // });
+        // p.catch((reject_output) => { // e trajtojm pjesen e dyt ose pjesen e erroravv.
+        //     console.log (reject_output);
+        // });
+    </script>
+</body>
+</html>
